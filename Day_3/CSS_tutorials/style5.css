@@ -1,0 +1,9 @@
+@import url("style5_print.css") print;
+/*** Print sample ***/
+
+/* defaults  for screen */
+#print-head,
+#print-foot {
+  display: none;
+  }
+

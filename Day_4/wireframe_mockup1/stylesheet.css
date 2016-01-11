@@ -1,0 +1,36 @@
+.maintext{
+  margin-left: 10px;
+}
+
+.introtext{
+
+}
+
+.products{
+  float: left;
+  padding: 10px 10px;
+  border: solid #000000 1px;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+}
+.products #productbox img{
+  clear: both;
+}
+  
+
+.navigation {
+  float: left;
+  width: 150px;
+  height: 500px;
+  border: solid #000000 1px;
+  margin-right: 10px;
+}
+
+.navigation li {
+  display: block;
+  list-style: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 10px;
+}

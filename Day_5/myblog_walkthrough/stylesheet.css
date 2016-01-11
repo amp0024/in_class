@@ -1,0 +1,78 @@
+header {
+  position: relative;
+  background-color: grey;
+  height: 50px;
+  width: 100%;
+  padding: auto;
+}
+
+#top ul{
+  text-align: center;
+}
+
+nav#top ul li{
+  
+  display: inline-block;
+  list-style-type: none; 
+}
+
+#top li{
+  text-align: center;
+}
+
+#top li a{
+  list-style: none;
+  margin: 10px;
+  text-align: center;
+}
+
+nav#side{
+  float: left;
+  padding-right: 20px;
+  height: 500px;
+  border-right: solid black 1px;
+}
+nav#side li {
+  padding-left: -30px;
+}
+
+#container {
+  width: 90%;
+  padding: 0 auto 0 10px;
+  margin: 20px;
+}
+
+h1{
+  text-align: center;
+  font-size:24px;
+}
+h2{
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+.date{
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#side li{
+  list-style: none;
+}
+.post a{
+  
+  padding: 0 20px;
+  height: 100px;
+  width: 100px;
+}
+footer{
+  clear: both;
+  position: relative;
+  background-color: #333;
+  height: 50px;
+  width: 100%;
+  padding: auto;
+}
+.blog{
+  margin-left: 100px;
+}

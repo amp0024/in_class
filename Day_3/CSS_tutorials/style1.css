@@ -1,0 +1,59 @@
+
+
+/*Style for intial letter C in first paragraph */
+/*
+strong { color: red; font-size: 200%;}
+.carrot { color: orange; }
+.spinach { color: green; }
+#first { font-style: italic;}
+p {color: blue;}
+
+
+/*h1, h2, h3 {color:navy;}*/
+
+
+/*this css rule changes the font for the body of the web page*/
+/*
+body {
+font: 16px "Comic Sans MS", cursive;
+}
+*/
+
+/*** CSS Tutorial: Color page ***/
+
+/* page font */
+body {
+  font: 16px "Comic Sans MS", cursive;
+  background: url("Blue-rule.png");
+}
+
+/* paragraphs */
+p {
+  color: #00f;
+}
+p:before{
+  content: url("yellow-pin.png");
+}
+
+#first {
+  font-style: italic;
+}
+
+/* initial letters */
+strong {
+  background-color: #ddf; 
+  color: #f00;
+  font: 200% serif;
+}
+
+.spinach {
+  color: #080;
+  background-color: #ddf;
+}
+
+.ref::before {
+  font-weight: bold;
+  color: navy;
+  content: "Reference: ";
+}
+

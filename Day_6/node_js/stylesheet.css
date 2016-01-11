@@ -1,0 +1,38 @@
+nav { 
+  position: relative;
+  margin: 0px auto;
+  text-align: center;
+
+}
+
+nav ul li{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+nav ul li.right{
+  border-right: 1px solid white;
+}
+
+logo {
+  margin: 0px auto;
+}
+
+header {
+  background-color: #343234;
+  height: 150px;
+
+}
+
+.container {
+  position: relative;
+}
+
+button{
+  height: 100px;
+  width: 150px;
+  background-color: #7baa13;
+  border-radius: 5px;
+}
